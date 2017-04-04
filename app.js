@@ -9,7 +9,11 @@ app.use(bodyParser.urlencoded({
 
 app.use(bodyParser.json());
 
-app.post('/talk', function (req, res) {
+app.get('/', (req, res) => {
+    res.simpleText(200, "Hello World!");
+});
+
+app.post('/talk', (req, res) => {
     var speech = req.body.result && req.body.result.parameters && req.body.result.parameters.echoText ? req.body.result.parameters.echoText : "Seems like some problem. Speak again."
     return res.json({
         speech: speech,
@@ -18,6 +22,6 @@ app.post('/talk', function (req, res) {
     });
 });
 
-app.listen((process.env.PORT || 8000), function () {
+app.listen((process.env.PORT || 8000), () => {
     console.log("Server up and listening");
 });
