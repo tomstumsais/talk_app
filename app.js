@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
-    res.simpleText(200, "Hello World!");
+    res.send('Hello world!');
 });
 
 app.post('/talk', (req, res) => {
