@@ -1,0 +1,16 @@
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    width: 100%;
+    min-height: 50rem;
+}
+
+.travel-message {
+    font-size: 3rem;
+    color: #333;
+}
+

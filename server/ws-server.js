@@ -10,9 +10,9 @@ const createServer = (httpServer) => {
 
     wss.on('connection', function connection(ws) {
         ws.on('message', function incoming(message) {
-            console.log(`received: ${message}`);
+            console.log(`received: ${message.target}`);
             ws.send(JSON.stringify({
-                answer: 43
+                status: "Success"
             }));
         });
     });

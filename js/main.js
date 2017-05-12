@@ -1,3 +1,5 @@
+'use strict';
+
 (function () {
     // if user is running mozilla then use it's built-in WebSocket
     window.WebSocket = window.WebSocket || window.MozWebSocket;
@@ -23,6 +25,9 @@
             console.log('This doesn\'t look like a valid JSON: ', message.data);
             return;
         }
+
         // handle incoming message
+        let target = document.querySelector("#travel-target");
+        target.innerHTML = json.target;
     };
 })();

@@ -15,13 +15,36 @@ app.get('/', (req, res) => {
 });
 
 app.post('/', (req, res) => {
+    let target = "";
+    let speech = "";
     let message = req.body;
-    console.log('Regular POST message: ', message.message);
 
-    wss.clients.forEach(ws => ws.send(JSON.stringify(message)));
+    // get city or/and country parameters from input
+    if (message.result && message.result.parameters) {
+        let city = message.result.parameters["geo-city"];
+        let country = message.result.parameters["geo-country"];
 
+        if (city && country) {
+            target = city + ", " + country;
+        } else if (city) {
+            target = city;
+        } else if (country) {
+            target = country;
+        }
+    }
+
+    if (target) {
+        // send target destination to websocket clients
+        wss.clients.forEach(ws => ws.send(JSON.stringify({ target: target })));
+        speech = "Thanks! Have a nice trip!";
+    } else {
+        speech = "Could you please repeat your travel destination?";
+    }
+    
     return res.json({
-        answer: 42
+        speech: speech,
+        displayText: speech,
+        source: 'webhook-traveler'
     });
 });
 
