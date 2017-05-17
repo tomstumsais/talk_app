@@ -10,3 +10,8 @@ Demo app with API.AI, Node.js and Heroku.
  * Deploy to Heroku Cloud Platform
  * Create demo API.AI agent
  * Use deployed Node.js app in Heroku to create webhook in API.AI agent
+
+Demo in jsfiddle:
+ Talk app - https://jsfiddle.net/dp4jwjq6/9/
+ Web app - https://jsfiddle.net/wxgpy8xt/
+ Web service - heroku...
