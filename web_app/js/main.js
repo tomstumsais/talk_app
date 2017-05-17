@@ -17,7 +17,7 @@
     };
 
     connection.onmessage = function (message) {
-        // try to decode json (I assume that each message from server is json)
+        // parse message to JSON
         try {
             var json = JSON.parse(message.data);
             console.log(json);
