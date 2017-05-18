@@ -13,5 +13,5 @@ Demo app with API.AI, Node.js and Heroku.
 
 Demo in jsfiddle:
  * Talk app - https://jsfiddle.net/dp4jwjq6/10/
- * Web app - https://jsfiddle.net/wxgpy8xt/2/
+ * Web app - https://jsfiddle.net/wxgpy8xt/3/
  * Web service - https://travel-demo-iuqyeykxmi.now.sh/ (used https://zeit.co/)
