@@ -11,6 +11,7 @@ app.use(bodyParser.json());
 
 // Let's create the regular HTTP request and response
 app.get('/', (req, res) => {
+    res.send("Service is working fine!");
     console.log('Service ready!');
 });
 

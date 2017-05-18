@@ -4,7 +4,7 @@
     // if user is running mozilla then use it's built-in WebSocket
     window.WebSocket = window.WebSocket || window.MozWebSocket;
 
-    var connection = new WebSocket('ws://localhost:8000');
+    var connection = new WebSocket('wss://travel-demo-iuqyeykxmi.now.sh');
 
     connection.onopen = function () {
         // connection is opened and ready to use
