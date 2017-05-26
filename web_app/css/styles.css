@@ -1,3 +1,10 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 .flex-container {
     display: -webkit-flex;
     display: flex;
@@ -6,7 +13,7 @@
     -webkit-align-items: center;
     align-items: center;
     width: 100%;
-    min-height: 50rem;
+    min-height: 10rem;
 }
 
 .travel-message {
@@ -14,3 +21,6 @@
     color: #333;
 }
 
+.google-map {
+    min-height: 45rem;
+}
