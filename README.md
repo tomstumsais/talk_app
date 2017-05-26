@@ -1,5 +1,5 @@
 # talk_app
-Demo app with API.AI, Node.js and Heroku.
+Demo app with API.AI, Node.js, Cloud server and Google Home device.
 
  * At start, create small demo service with Node.js
     - Express service
