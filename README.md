@@ -1,4 +1,4 @@
-# talk_app
+# Talk app
 PoC app with Dialogflow (previous API.AI), Node.js, Cloud server and Google Home device.
 
  * At start, create small demo service with Node.js
