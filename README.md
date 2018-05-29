@@ -1,6 +1,6 @@
-# Talk app
+# Travel Talk App
 
-Travel talk app with [Dialogflow (previous API.AI)](https://dialogflow.com/), Node.js, Cloud server and Google Home device. This is a PoC app, goal was to create web app which is connected with Google Home. User can talk with Google Assistant which is added in Google Home. Say "Hey, Google!" and then where you want to travel and Google Assistant will take your response and depending on it, show your travel destination in web browser where is opened web app with Google Map.
+Travel talk app is built with [Dialogflow (previous API.AI)](https://dialogflow.com/), Node.js, Cloud server and Google Home device. This is a PoC app, goal was to create web app which is connected with Google Home. User can talk with Google Assistant which is added in Google Home. Say "Hey, Google!" and then where you want to travel and Google Assistant will take your response and depending on it, show your travel destination in web browser where is opened web app with Google Map.
 
 ## Getting Started
 
