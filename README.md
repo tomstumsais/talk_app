@@ -1,40 +1,29 @@
 # Travel Talk App
 
-Travel talk app is built with [Dialogflow (previous API.AI)](https://dialogflow.com/), Node.js, Cloud server and Google Home device. This is a PoC app, goal was to create web app which is connected with Google Home. User can talk with Google Assistant which is added in Google Home. Say "Hey, Google!" and then where you want to travel and Google Assistant will take your response and depending on it, show your travel destination in web browser where is opened web app with Google Map.
+Travel Talk app is built with [Dialogflow (previous API.AI)](https://dialogflow.com/), Node.js, Cloud server and Google Home device. This is a PoC app, goal was to create web app which is connected with Google Home. User can talk with Google Assistant which is added in Google Home. Say "Hey, Google!" and then where you want to travel and Google Assistant will take your response and depending on it, show your travel destination in web browser where is opened web app with Google Map.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+Need a running Node.js and npm, Dialogflow account and Google Home device.
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+* install [Node & npm](https://nodejs.org/en/)
+* go to project root directory ./
+* run `npm install` to install dependencies
+* go to ./server directory
+* start the server `node http-server.js`
+* go to ./web_app directory
+* launch `index.html` file in a web browser
+* setup Google Home with Google Assistant which is built with Dialogflow
+* check if web service is correctly added to Google Assistant like webhook
+* now you are ready to play with it!
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+**WARNING** At the moment this current source code version could not work properly and could need to fix it. That's because Dialogflow was previously API.AI and there were made changes to this API in this time. Last time when I ran this app was May 2017.
 
 ## Steps how I built it
 
