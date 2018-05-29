@@ -14,14 +14,15 @@ Need a running Node.js and npm, Dialogflow account and Google Home device.
 
 * install [Node & npm](https://nodejs.org/en/)
 * go to project root directory ./
-* run `npm install` to install dependencies
+* run in your CLI command `npm install` to install dependencies
 * go to ./server directory
-* start the server `node http-server.js`
+* run in your CLI command `node http-server.js` to start the server
 * go to ./web_app directory
 * launch `index.html` file in a web browser
 * setup Google Home with Google Assistant which is built with Dialogflow
 * check if web service is correctly added to Google Assistant like webhook
-* now you are ready to play with it!
+
+Now you are ready to play with it!
 
 **WARNING!** At the moment this current source code version could not work properly and could need to fix it. That's because Dialogflow was previously API.AI and there were made changes to this API in this time. Last time when I ran this app was May 2017.
 
