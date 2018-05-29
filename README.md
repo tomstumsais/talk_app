@@ -23,7 +23,7 @@ Need a running Node.js and npm, Dialogflow account and Google Home device.
 * check if web service is correctly added to Google Assistant like webhook
 * now you are ready to play with it!
 
-**WARNING** At the moment this current source code version could not work properly and could need to fix it. That's because Dialogflow was previously API.AI and there were made changes to this API in this time. Last time when I ran this app was May 2017.
+**!WARNING!** At the moment this current source code version could not work properly and could need to fix it. That's because Dialogflow was previously API.AI and there were made changes to this API in this time. Last time when I ran this app was May 2017.
 
 ## Steps how I built it
 
@@ -34,7 +34,7 @@ Need a running Node.js and npm, Dialogflow account and Google Home device.
     - When user make POST request to Express (in this case user say travel destination, Google Home take it and make POST request to service), then it send request body to all Websocket clients
  * Then pushed it to git
  * Deployed to some Cloud Platform (I used [Now](https://zeit.co/now))
- * Createed demo [Dialogflow](https://dialogflow.com/) agent
+ * Created demo [Dialogflow](https://dialogflow.com/) agent
  * Used deployed Node.js app in Cloud to create webhook in Dialogflow agent
 
 Demo in jsfiddle:
