@@ -23,7 +23,7 @@ Need a running Node.js and npm, Dialogflow account and Google Home device.
 * check if web service is correctly added to Google Assistant like webhook
 * now you are ready to play with it!
 
-**!WARNING!** At the moment this current source code version could not work properly and could need to fix it. That's because Dialogflow was previously API.AI and there were made changes to this API in this time. Last time when I ran this app was May 2017.
+**WARNING!** At the moment this current source code version could not work properly and could need to fix it. That's because Dialogflow was previously API.AI and there were made changes to this API in this time. Last time when I ran this app was May 2017.
 
 ## Steps how I built it
 
